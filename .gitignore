@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+
+# BAM exports contain live DNS data, never commit them
+*.csv
+*.json
+*.yaml
+*.yml
+bluecat-*.txt
+
+# local wizard state (host, format, favorites, optional saved credentials)
+.bluecat_discover.json
